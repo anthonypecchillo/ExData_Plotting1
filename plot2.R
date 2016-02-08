@@ -14,12 +14,6 @@ if (!"loadthedata.R" %in% list.files()) {
 source("loadthedata.R")
 
 ##------------------------------------------------------------------------------------------
-## Stores relevant numeric data to variable GlobalActivePower.
-##------------------------------------------------------------------------------------------
-
-GlobalActivePower <- as.numeric(relevant_dates$Global_active_power)
-
-##------------------------------------------------------------------------------------------
 ## Creates a png graphics device, fills it with the appropriate plot, then closes the device.
 ##------------------------------------------------------------------------------------------
 

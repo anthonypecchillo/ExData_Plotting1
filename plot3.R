@@ -13,14 +13,6 @@ if (!"loadthedata.R" %in% list.files()) {
 
 source("loadthedata.R")
 
-##------------------------------------------------------------------------------------------
-## Stores relevant numeric data to shorter variable names.
-##------------------------------------------------------------------------------------------
-
-GlobalActivePower <- as.numeric(relevant_dates$Global_active_power)
-SubMetering1 <- as.numeric(relevant_dates$Sub_metering_1)
-SubMetering2 <- as.numeric(relevant_dates$Sub_metering_2)
-SubMetering3 <- as.numeric(relevant_dates$Sub_metering_3)
 
 ##------------------------------------------------------------------------------------------
 ## Creates a png graphics device, fills it with the appropriate plot, then closes the device.
